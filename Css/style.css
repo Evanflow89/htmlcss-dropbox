@@ -138,9 +138,18 @@ float: right;
 }
 
 input[type=radio] {  
-    margin: 50px 0px 20px;
+    margin: 50px 0px 50px;
 }
 
 #fatturazioneA {
 margin-left: 15px;
 }
+
+.container.colTab {
+    max-width: calc(100% / 3 - 20px);
+}
+
+.colTab span {
+    display: inline-block;
+}
+
