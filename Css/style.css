@@ -18,6 +18,10 @@ h1 {
     padding: 50px 0px 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 /* #### BUTTONS #### */
 
 .btn {
@@ -103,6 +107,12 @@ h1 {
 .containerLarge {
     max-width: 1060px;
     margin: auto;
+    padding-bottom: 120px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
 }
 
 .mainNavB ul li button {
@@ -125,4 +135,12 @@ float: right;
 
 .col-rightSection1 img {
     max-width: 650px;
+}
+
+input[type=radio] {  
+    margin: 50px 0px 20px;
+}
+
+#fatturazioneA {
+margin-left: 15px;
 }
