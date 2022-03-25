@@ -145,11 +145,16 @@ input[type=radio] {
 margin-left: 15px;
 }
 
-.container.colTab {
+.colTab {
     max-width: calc(100% / 3 - 20px);
 }
 
-.colTab span {
-    display: inline-block;
+.colTab > .plan {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
 }
+
 
