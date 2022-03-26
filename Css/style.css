@@ -15,7 +15,7 @@ body {
 h1 {
     color: black;
     font-size: 60px;
-    padding: 50px 0px 40px;
+    padding: 50px 0px 20px;
 }
 
 h2 {
@@ -24,6 +24,7 @@ h2 {
 
 .colTab h3 {
 padding: 20px;
+padding-bottom: 0;
 }
 
 /* #### BUTTONS #### */
@@ -150,7 +151,10 @@ margin-left: 15px;
 }
 
 .colTab {
-    max-width: calc(100% / 3 - 20px);
+    max-width: calc(100% / 3 - 8px);
+    float: left;
+    margin: 0 4px 0 4px;
+    border: 0.5px solid #d0d0d3;
 }
 
 .colTab > .plan {
@@ -176,7 +180,7 @@ margin-left: 15px;
     font-weight: 300;
 }
 
-.price{
+.colTab h5{
     padding: 20px;
 }
 
@@ -191,9 +195,23 @@ margin-left: 15px;
 .colTab span {
     font-size: 10px;
     font-weight: 500;
-    padding: 20px;
+    padding: 20px 20px 40px;
 }
 
 .colTab span a{
     text-decoration: none;
+}
+
+
+.colTab hr{
+    margin: 30px 0 20px 20px;
+    width: 20%;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.bottomUl:last-of-type{
+    padding-bottom: 120px;
 }
