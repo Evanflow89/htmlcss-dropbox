@@ -26,6 +26,17 @@ h2 {
 padding: 20px;
 padding-bottom: 0;
 display: inline-block;
+font-size: 16px;
+}
+
+.boxPartner h3{
+    font-size: 16px;
+   padding: 40px 0 20px 20px;
+}
+
+.col-leftSection1 p {
+    font-weight: 600;
+    font-size: 14px;
 }
 
 /* #### BUTTONS #### */
@@ -41,7 +52,16 @@ display: inline-block;
 .btn.btnblue {
     display: inline-block;
     background-color: #0061ff;
-    
+}
+
+.btn.btnwhite{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 20px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 #btnBt {
@@ -51,10 +71,6 @@ display: inline-block;
     padding: 8px 50px;
 }
 
-.col-leftSection1 p {
-    font-weight: 600;
-    font-size: 14px;
-}
 
 /* #### CLEARFIX #### */
 
@@ -234,8 +250,26 @@ margin-left: 15px;
     border: 0.5px solid #d0d0d3;
 }
 
-.colBottom p{
+.colBottom p, .boxPartner p{
     font-size: 10px;
     padding: 10px 0 20px 20px;
     font-weight: 500; 
+}
+
+.boxImg{
+    max-width: calc(60% - 4px);
+    float: left;
+}
+
+.boxPartner {
+    max-width: 40%;
+    float: left;
+}
+
+.boxImg img{
+    max-width: 400px;
+}
+
+.cont3 {
+    margin-top: 100px;
 }
