@@ -386,3 +386,24 @@ position: relative;
     width: 7em;
     margin: 40px auto 50px 40px;
 }
+
+.bottomSquare {
+    width: 100%;
+    height: 12.5vw;
+    background-color: #b4d0e7;
+}
+
+.containerLarge.Square {
+    padding-bottom: 0;
+}
+
+.h2Square, .btnSquare {
+    width: calc(50% - 4px);
+    float: left;
+    margin-top: 60px;
+}
+
+.btnSquare > .btn.btnwhite{
+    float: right;
+    border: none;
+} 
