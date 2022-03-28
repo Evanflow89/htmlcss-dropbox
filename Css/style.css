@@ -284,13 +284,13 @@ margin-left: 15px;
 }
 
 .card {
-    max-width: calc(100% / 3 - 8px);
+    max-width: calc(100% / 3 - 12px);
     float: left;
     margin: 50px 0;
 }
 
 .cardCentr {
-    margin: 50px 12px;
+    margin: 50px 18px;
 }
 
 .card img{
