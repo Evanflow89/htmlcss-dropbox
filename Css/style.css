@@ -46,6 +46,15 @@ font-size: 16px;
     padding-top: 20px;
 }
 
+.teamTitle a{
+    color: #0061ff;
+    font-size: 12px;
+    font-weight: 700; 
+}
+
+.teamTitle h2{
+    margin: 50px auto 20px;
+}
 /* #### BUTTONS #### */
 
 .btn {
@@ -296,4 +305,70 @@ margin-left: 15px;
 .card img{
     width:100%;
     object-fit:cover;
+}
+
+.teamTitle {
+    margin-top: 60px;
+    float: left;
+}
+
+.brands {
+    width: 25vw;
+    height: 25vw;
+    float: left;
+}
+
+
+.boxSquare{
+    float: left;
+width: 12.5vw;
+height: 12.5vw;
+position: relative;
+}
+
+.brandsCentral {
+    width: calc(100% - 50vw);
+    float: left;
+}
+
+.boxSquare img{
+    width:5em;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green {
+    background-color: #a2d39b;
+    border: 0.5vw solid #d0e9cd;
+}
+
+.purple {
+    background-color: #61082b;
+}
+
+.blue {
+    background-color: #0093ce;
+}
+
+.orange {
+    background-color: #ff1c1c;
+}
+
+.red {
+    background-color: #d5001f;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.darkblue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
 }
