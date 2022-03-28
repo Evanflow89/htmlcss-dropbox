@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .colTab h3, .colBottom h3 {
@@ -34,9 +34,16 @@ font-size: 16px;
    padding: 40px 0 20px 20px;
 }
 
-.col-leftSection1 p {
+
+.col-leftSection1 p{
     font-weight: 600;
     font-size: 14px;
+}
+
+.card p{
+    font-size: 10px;
+    font-weight: 500; 
+    padding-top: 20px;
 }
 
 /* #### BUTTONS #### */
@@ -119,10 +126,11 @@ font-size: 16px;
 }
 
 .mainNavA ul li a, .mainNavB ul li a{
+    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.8em;
     padding: 0 20px;
     color: black;
 }
@@ -272,4 +280,20 @@ margin-left: 15px;
 
 .cont3 {
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    max-width: calc(100% / 3 - 8px);
+    float: left;
+    margin: 50px 0;
+}
+
+.cardCentr {
+    margin: 50px 12px;
+}
+
+.card img{
+    width:100%;
+    object-fit:cover;
 }
