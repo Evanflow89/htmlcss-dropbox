@@ -46,6 +46,12 @@ font-size: 16px;
     padding-top: 20px;
 }
 
+.brandsCentral p {
+    font-size: 10px;
+    font-weight: 500; 
+    margin: auto 40px 40px 40px;
+}
+
 .teamTitle a{
     color: #0061ff;
     font-size: 12px;
@@ -308,7 +314,7 @@ margin-left: 15px;
 }
 
 .teamTitle {
-    margin-top: 60px;
+    margin: 50px auto;
     float: left;
 }
 
@@ -329,10 +335,13 @@ position: relative;
 .brandsCentral {
     width: calc(100% - 50vw);
     float: left;
+    background-color: #f5f5f5;
+    height: 25vw;
+    overflow-y: scroll;
 }
 
 .boxSquare img{
-    width:5em;
+    width: 7em;
     filter: invert(1);
     position: absolute;
     top: 50%;
@@ -371,4 +380,9 @@ position: relative;
 
 .yellow {
     background-color: #ffd830;
+}
+
+.brandsCentral img{
+    width: 7em;
+    margin: 40px auto 50px 40px;
 }
