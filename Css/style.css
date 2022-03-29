@@ -86,6 +86,22 @@ font-size: 16px;
     padding: 25px 0;
     border-top: 1px solid #dcdcde;
     border-bottom: 1px solid #dcdcde;
+
+}
+
+.colFoot h4 {
+    padding: 25px 0 20px;
+    color: white;
+}
+
+.colFoot ul li {
+    list-style: none;
+}
+
+.colFoot ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
 }
 /* #### BUTTONS #### */
 
@@ -455,3 +471,46 @@ float: right;
 }
 
 
+.faq:last-of-type{
+    margin-bottom: 100px;
+}
+
+.colFoot {
+    width: calc(100% / 5 - 60px);
+    float: left;
+    margin: 0 10px;
+    padding-bottom: 100px;
+}
+
+.colFoot:first-of-type {
+    margin-left: 80px;
+}
+
+.colFoot:last-of-type{
+    margin-right: 30px;
+}
+
+.containerLarge.Foot {
+    background-color: black;
+}
+
+.colFoot-bottom {
+    float: left;
+    width: 100%;
+    color: #999999;
+}
+
+.colFoot-bottom hr{
+    color: white;
+    width: 7vw;
+    margin-left: 80px;
+}
+
+.language h5{
+    display: inline-block;
+}
+
+.language {
+    padding: 50px 0 30px 80px;
+    font-size: 10px;
+}
